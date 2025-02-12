@@ -1,0 +1,101 @@
+\documentclass[a4paper,draftfirst,jou,12pt]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{lipsum}
+\usepackage{times}
+% \usepackage{setspace}
+% \doublespacing
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{bib.bib}
+\setlength{\headheight}{22.35002pt}
+\addtolength{\topmargin}{-8.90433pt}
+
+\title{APA 7th Edition Example Document}
+\shorttitle{APA7}
+\author{Kavi Arya}
+\leftheader{Arya}
+\authorsaffiliations{Aryabhatta College}
+% \journal{Journal of DU Clinical Psychology}
+\course{BA(H) Psychology}
+\abstract{This is a sample abstract for an APA 7th edition document. It briefly describes the research question, methods, results, and conclusions. \lipsum[1]}
+\keywords{APA7, LaTeX, Example, Document}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This section provides context, background, and purpose of the study.
+\subsection{Lists in apa}
+\paragraph{Povs in psychology} 2 most impotant asects of psychology: \begin{seriate} \item Psychodynomic, \item Cognitive. \end{seriate}
+seriate
+
+\subparagraph{First Sub Paragraph}This is the first sub paragraph of the document.
+\begin{APAenumerate}
+  \item first item ... ... ... continue continue
+  \item second item ... ... ... continue continue
+\end{APAenumerate}
+\begin{APAitemize}
+\item first item ... ... ... continue continue
+\item second item ... ... ... continue continue
+\end{APAitemize}
+
+\subsection{Citation}
+
+\lipsum[1]
+
+\section{Methods}
+This section includes subsections:
+\lipsum[2]
+\subsection{Participants}
+\lipsum[3]
+Description of participants.
+\subsection{Materials}
+\lipsum[4]
+Description of materials.
+\subsection{Procedure}
+\lipsum[5]
+Description of procedure.
+
+\section{Results}
+This is the results
+\textbf{Table 1:} Table~\ref{tab:BasicTable} summarizes the data.
+\begin{table}
+  \caption{Sample Basic Table}
+  \label{tab:BasicTable}
+  \begin{tabular}{@{}llr@{}}         \toprule
+  \multicolumn{2}{c}{Item}        \\ \cmidrule(r){1-2}
+  Animal    & Description & Price \\ \midrule
+  Gnat      & per gram    & 13.65 \\
+            & each        &  0.01 \\
+  Gnu       & stuffed     & 92.50 \\
+  Emu       & stuffed     & 33.33 \\
+  Armadillo & frozen      &  8.99 \\ \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Data Analysis}
+\lipsum[7]
+Description of data analysis methods.
+\subsection{Findings}
+\lipsum[8]
+Summary of key findings.
+
+\section{Discussion}
+Interpretation and discussion of the results.
+\lipsum[9-11]
+
+\section{Conclusion}
+Summary of conclusions and future research directions.
+\lipsum[12]
+
+% References
+\nocite{*}
+\printbibliography
+
+% \section{Appendix}
+% \appendix
+% \lipsum[13-16]
+% Any additional materials or analyses.
+\end{document}

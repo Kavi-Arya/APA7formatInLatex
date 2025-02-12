@@ -1,0 +1,22 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'apa.blg'
+[38] biber:340> INFO - === Tue Jan 28, 2025, 15:21:15
+[47] Biber.pm:420> INFO - Reading 'apa.bcf'
+[90] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[99] Biber.pm:4463> INFO - Processing section 0
+[105] Biber.pm:4654> INFO - Looking for bibtex file 'bib.bib' for section 0
+[106] bibtex.pm:1713> INFO - LaTeX decoding ...
+[114] bibtex.pm:1519> INFO - Found BibTeX data source 'bib.bib'
+[184] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[184] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[184] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[185] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[204] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[204] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[211] bbl.pm:676> INFO - Writing 'apa.bbl' with encoding 'UTF-8'
+[218] bbl.pm:779> INFO - Output to apa.bbl
+[219] Biber.pm:131> WARN - ISBN '0-201-53081-8' in entry 'knuth1990concretemathematics' is invalid - run biber with '--validate_datamodel' for details.
+[219] Biber.pm:131> WARN - ISBN '978-1491917567' in entry 'vanderossen2019python' is invalid - run biber with '--validate_datamodel' for details.
+[219] Biber.pm:133> INFO - WARNINGS: 2
